@@ -200,11 +200,11 @@
     },
     {
      "id": "23",
-     "file": null,
+     "file": "videos/q23.mp4",
      "section": "4.5",
      "title": "分类汇总（第 1 步排序，第 2 步汇总）",
-     "duration": 0,
-     "review": false
+     "duration": 89,
+     "review": true
     },
     {
      "id": "23a",
@@ -267,6 +267,14 @@
      "title": "修饰迷你图",
      "duration": 23,
      "review": false
+    },
+    {
+     "id": "29",
+     "file": "videos/q29.mp4",
+     "section": "4.6",
+     "title": "数据透视表（标准操作，模板未写）：按性别统计数学平均分",
+     "duration": 71,
+     "review": true
     }
    ]
   }
