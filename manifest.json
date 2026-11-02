@@ -9,77 +9,88 @@
      "file": "videos/q01.mp4",
      "section": "4.2",
      "title": "插入工作表",
-     "duration": 45
+     "duration": 45,
+     "review": false
     },
     {
      "id": "2",
      "file": "videos/q02.mp4",
      "section": "4.2",
      "title": "删除工作表",
-     "duration": 35
+     "duration": 35,
+     "review": false
     },
     {
      "id": "3",
      "file": "videos/q03.mp4",
      "section": "4.2",
      "title": "移动工作表",
-     "duration": 33
+     "duration": 33,
+     "review": false
     },
     {
      "id": "4",
      "file": "videos/q04.mp4",
      "section": "4.2",
      "title": "复制工作表",
-     "duration": 39
+     "duration": 39,
+     "review": false
     },
     {
      "id": "5",
      "file": "videos/q05.mp4",
      "section": "4.2",
      "title": "重命名工作表；例：把 Sheet1 改名为「成绩单」",
-     "duration": 51
+     "duration": 51,
+     "review": false
     },
     {
      "id": "6",
      "file": "videos/q06.mp4",
      "section": "4.2",
      "title": "隐藏工作表",
-     "duration": 26
+     "duration": 26,
+     "review": false
     },
     {
      "id": "7",
      "file": "videos/q07.mp4",
      "section": "4.2",
      "title": "更改工作表标签颜色",
-     "duration": 33
+     "duration": 33,
+     "review": false
     },
     {
      "id": "8",
      "file": "videos/q08.mp4",
      "section": "4.2",
      "title": "插入单元格 / 行 / 列",
-     "duration": 31
+     "duration": 30,
+     "review": false
     },
     {
      "id": "9",
      "file": "videos/q09.mp4",
      "section": "4.2",
      "title": "清除单元格",
-     "duration": 24
+     "duration": 23,
+     "review": false
     },
     {
      "id": "10",
      "file": "videos/q10.mp4",
      "section": "4.2",
      "title": "删除单元格",
-     "duration": 39
+     "duration": 39,
+     "review": false
     },
     {
      "id": "11",
-     "file": null,
+     "file": "videos/q11.mp4",
      "section": "4.2",
      "title": "移动 / 复制单元格",
-     "duration": 0
+     "duration": 52,
+     "review": false
     }
    ]
   },
@@ -92,56 +103,64 @@
      "file": null,
      "section": "4.3",
      "title": "设置单元格格式（通用题型）",
-     "duration": 0
+     "duration": 0,
+     "review": false
     },
     {
      "id": "13",
      "file": "videos/q13.mp4",
      "section": "4.3",
      "title": "例：E3:E8 保留 2 位小数",
-     "duration": 31
+     "duration": 31,
+     "review": false
     },
     {
      "id": "14",
      "file": "videos/q14.mp4",
      "section": "4.3",
      "title": "例：A2:E2 单元格颜色设为红色",
-     "duration": 26
+     "duration": 26,
+     "review": false
     },
     {
      "id": "15",
-     "file": null,
+     "file": "videos/q15.mp4",
      "section": "4.3",
      "title": "行高 / 列宽",
-     "duration": 0
+     "duration": 46,
+     "review": false
     },
     {
      "id": "16",
-     "file": null,
+     "file": "videos/q16.mp4",
      "section": "4.3",
      "title": "单元格样式",
-     "duration": 0
+     "duration": 28,
+     "review": false
     },
     {
      "id": "17",
-     "file": null,
+     "file": "videos/q17.mp4",
      "section": "4.3",
      "title": "套用表格格式",
-     "duration": 0
+     "duration": 36,
+     "review": false
     },
     {
      "id": "18",
-     "file": null,
+     "file": "videos/q18.mp4",
      "section": "4.3",
      "title": "条件格式",
-     "duration": 0
+     "duration": 40,
+     "review": false
     },
     {
      "id": "19",
-     "file": null,
+     "file": "videos/q19.mp4",
      "section": "4.3",
      "title": "替换",
-     "duration": 0
+     "duration": 42,
+     "review": false
     }
    ]
   },
@@ -151,10 +170,11 @@
    "items": [
     {
      "id": "20",
-     "file": null,
+     "file": "videos/q20.mp4",
      "section": "4.4",
      "title": "输入公式或函数并填充",
-     "duration": 0
+     "duration": 41,
+     "review": false
     }
    ]
   },
@@ -164,45 +184,51 @@
    "items": [
     {
      "id": "21",
-     "file": null,
+     "file": "videos/q21.mp4",
      "section": "4.5",
      "title": "单字段或多字段排序",
-     "duration": 0
+     "duration": 50,
+     "review": false
     },
     {
      "id": "22",
-     "file": null,
+     "file": "videos/q22.mp4",
      "section": "4.5",
      "title": "自动筛选",
-     "duration": 0
+     "duration": 57,
+     "review": false
     },
     {
      "id": "23",
      "file": null,
      "section": "4.5",
      "title": "分类汇总（第 1 步排序，第 2 步汇总）",
-     "duration": 0
+     "duration": 0,
+     "review": false
     },
     {
      "id": "23a",
      "file": "videos/q23a.mp4",
      "section": "4.5",
      "title": "例：按性别，求计算机成绩的平均值",
-     "duration": 64
+     "duration": 64,
+     "review": false
     },
     {
      "id": "23b",
      "file": "videos/q23b.mp4",
      "section": "4.5",
      "title": "例：求不同地区铅笔、钢笔、圆珠笔的总销量",
-     "duration": 66
+     "duration": 66,
+     "review": false
     },
     {
      "id": "24",
-     "file": null,
+     "file": "videos/q24.mp4",
      "section": "4.5",
      "title": "数据验证",
-     "duration": 0
+     "duration": 46,
+     "review": false
     }
    ]
   },
@@ -212,31 +238,35 @@
    "items": [
     {
      "id": "25",
-     "file": null,
+     "file": "videos/q25.mp4",
      "section": "4.6",
      "title": "插入图表",
-     "duration": 0
+     "duration": 32,
+     "review": false
     },
     {
      "id": "26",
-     "file": null,
+     "file": "videos/q26.mp4",
      "section": "4.6",
      "title": "修饰图表",
-     "duration": 0
+     "duration": 43,
+     "review": false
     },
     {
      "id": "27",
-     "file": null,
+     "file": "videos/q27.mp4",
      "section": "4.6",
      "title": "插入迷你图",
-     "duration": 0
+     "duration": 38,
+     "review": false
     },
     {
      "id": "28",
-     "file": null,
+     "file": "videos/q28.mp4",
      "section": "4.6",
      "title": "修饰迷你图",
-     "duration": 0
+     "duration": 23,
+     "review": false
     }
    ]
   }

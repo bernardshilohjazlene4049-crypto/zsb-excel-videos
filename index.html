@@ -22,7 +22,7 @@ let live=[],cur=-1;const $=id=>document.getElementById(id);
 fetch('manifest.json?'+Date.now()).then(r=>r.json()).then(m=>{let h='';
 for(const s of m.sections){h+=`<h2>${s.name}</h2>`;for(const it of s.items){const i=it.file?live.push(it)-1:-1;
 h+=`<div class="it ${it.file?'':'off'}" ${it.file?`onclick="play(${i})"`:''}><span class="no">第${it.id}题</span><span class="t">${it.title}</span>`+
-(it.file?`<span class="d">${Math.floor(it.duration/60)}:${String(it.duration%60).padStart(2,'0')}</span>`:'<span class="tag">待更新</span>')+'</div>';}}
+(it.review?'<span class="tag">待核对</span>':'')+(it.file?`<span class="d">${Math.floor(it.duration/60)}:${String(it.duration%60).padStart(2,'0')}</span>`:'<span class="tag">待更新</span>')+'</div>';}}
 $('list').innerHTML=h;const q=new URLSearchParams(location.hash.slice(1)).get('q');const k=live.findIndex(x=>x.id==q);if(k>=0)play(k);});
 function play(i){cur=i;const it=live[i];$('mt').textContent=`${it.section}　第${it.id}题　${it.title}`;$('v').src=it.file;$('m').style.display='flex';
 $('pv').disabled=i==0;$('nx').disabled=i==live.length-1;$('v').play().catch(()=>{});history.replaceState(null,'','#q='+it.id);}
