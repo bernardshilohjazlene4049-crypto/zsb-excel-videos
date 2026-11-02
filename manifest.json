@@ -204,7 +204,7 @@
      "section": "4.5",
      "title": "分类汇总（第 1 步排序，第 2 步汇总）",
      "duration": 89,
-     "review": true
+     "review": false
     },
     {
      "id": "23a",
@@ -274,7 +274,7 @@
      "section": "4.6",
      "title": "数据透视表（标准操作，模板未写）：按性别统计数学平均分",
      "duration": 71,
-     "review": true
+     "review": false
     }
    ]
   }
