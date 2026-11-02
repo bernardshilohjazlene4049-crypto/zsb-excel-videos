@@ -1,0 +1,32 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>辽宁专升本 计算机基础 · Excel 操作题讲解</title>
+<style>
+body{margin:0;font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;background:#f3f6f4;color:#222}
+header{background:#217346;color:#fff;padding:14px 16px;position:sticky;top:0;z-index:2}
+header h1{font-size:18px;margin:0}header p{margin:4px 0 0;font-size:12px;opacity:.85}
+main{max-width:720px;margin:auto;padding:8px 12px 40px}h2{font-size:15px;color:#217346;margin:18px 4px 8px}
+.it{display:flex;align-items:center;gap:10px;background:#fff;border-radius:10px;padding:12px;margin:6px 0;box-shadow:0 1px 2px #0001;cursor:pointer}
+.no{min-width:42px;font-weight:700;color:#217346}.t{flex:1;font-size:15px}.d{font-size:12px;color:#888}
+.it.off{opacity:.55;cursor:default}.tag{font-size:12px;background:#eee;color:#888;padding:2px 6px;border-radius:6px}
+#m{display:none;position:fixed;inset:0;background:#000e;z-index:9;flex-direction:column;align-items:center;justify-content:center}
+#m video{max-width:100%;max-height:78vh;background:#000}#mt{color:#fff;padding:8px 12px;font-size:15px;text-align:center}
+.bar{display:flex;gap:10px;padding:10px}.bar button{font-size:15px;padding:9px 16px;border:0;border-radius:8px;background:#217346;color:#fff}
+.bar button:disabled{background:#555}
+</style></head><body>
+<header><h1>Excel 操作题讲解视频</h1><p>辽宁专升本 · 计算机基础 · 第四章 · 按题号顺序</p></header>
+<main id="list">加载中…</main>
+<div id="m"><div id="mt"></div><video id="v" controls playsinline preload="metadata"></video>
+<div class="bar"><button id="pv">上一题</button><button id="cl">关闭</button><button id="nx">下一题</button></div></div>
+<script>
+let live=[],cur=-1;const $=id=>document.getElementById(id);
+fetch('manifest.json?'+Date.now()).then(r=>r.json()).then(m=>{let h='';
+for(const s of m.sections){h+=`<h2>${s.name}</h2>`;for(const it of s.items){const i=it.file?live.push(it)-1:-1;
+h+=`<div class="it ${it.file?'':'off'}" ${it.file?`onclick="play(${i})"`:''}><span class="no">第${it.id}题</span><span class="t">${it.title}</span>`+
+(it.file?`<span class="d">${Math.floor(it.duration/60)}:${String(it.duration%60).padStart(2,'0')}</span>`:'<span class="tag">待更新</span>')+'</div>';}}
+$('list').innerHTML=h;const q=new URLSearchParams(location.hash.slice(1)).get('q');const k=live.findIndex(x=>x.id==q);if(k>=0)play(k);});
+function play(i){cur=i;const it=live[i];$('mt').textContent=`${it.section}　第${it.id}题　${it.title}`;$('v').src=it.file;$('m').style.display='flex';
+$('pv').disabled=i==0;$('nx').disabled=i==live.length-1;$('v').play().catch(()=>{});history.replaceState(null,'','#q='+it.id);}
+$('pv').onclick=()=>cur>0&&play(cur-1);$('nx').onclick=()=>cur<live.length-1&&play(cur+1);
+$('cl').onclick=()=>{$('v').pause();$('m').style.display='none';history.replaceState(null,'',location.pathname);};
+$('v').onended=()=>{};
+</script></body></html>
